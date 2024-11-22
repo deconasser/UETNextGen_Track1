@@ -17,7 +17,7 @@
 Hãy thực hiện các bước sau để train mô hình:
 ### Download Dataset
 ```
-
+soict2024_hackathon(Yolo format): !gdown https://drive.google.com/uc?id=147erElYLdhHiH49fu2iz-5T3M3gegFaJ
 co_dino_5scale_swin_large_22e_o365.pth: !gdown https://drive.google.com/uc?id=1U6Mexf23-VzebMY7LL87C29Zi0Eapdtg
 ```
 
