@@ -41,6 +41,15 @@ cd sources/Co-DETR
 docker compose up --build 
 ```
 ## 2. Inference: 
+### Download Checkpoints
+```
+Epoch 2: !gdown https://drive.google.com/uc?id=1--elr04W-ktPi3FuHERJ_L545QifUaqT
+Epoch 6: !gdown https://drive.google.com/uc?id=1-B533mVm6WUt5Bdcfjtinm8V__KbjSLu
+Epoch 8: !gdown https://drive.google.com/uc?id=1-C_exQbO-yrYtM2L5yDVI2rKW248mpe7
+Epoch 10: !gdown https://drive.google.com/uc?id=1-FtEs4eIpHV5O30Vl8-vzXt30JztPql6
+Epoch 8_night: !gdown https://drive.google.com/uc?id=108S8b_CUn75MbLPz-BtCdJYeaX5xSJ3r
+Epoch 12_day: gdown https://drive.google.com/uc?id=1Kwnqnk2IN-fmDDhU7Q5qIp3t6RxonSRu
+```
  - Checkpoints được lưu tại Co-DETR/nextgen
  - Public test được lưu tại Co-DETR/test_data
 
