@@ -15,6 +15,8 @@
 
 ## 1. Training: 
 Hãy thực hiện các bước sau để train mô hình:
+### Download Dataset
+
 ## Prepare dataset
 ```
 data
@@ -50,20 +52,19 @@ Epoch 10: !gdown https://drive.google.com/uc?id=1-FtEs4eIpHV5O30Vl8-vzXt30JztPql
 Epoch 8_night: !gdown https://drive.google.com/uc?id=108S8b_CUn75MbLPz-BtCdJYeaX5xSJ3r
 Epoch 12_day: gdown https://drive.google.com/uc?id=1Kwnqnk2IN-fmDDhU7Q5qIp3t6RxonSRu
 ```
- - Checkpoints được lưu tại Co-DETR/nextgen
+ - Checkpoints đặt tại Co-DETR/nextgen
 ``` 
 Co-DETR
 └── nextgen
     ├── epoch_2.pth
     ├── ...
 ```
- - Public test được lưu tại Co-DETR/test_data
+ - Public test đặt tại Co-DETR/test_data
 ``` 
 Co-DETR
 └── test_data
     ├── public test
     │   ├── cam_08_00500_jpg.rf.5ab59b5bcda1d1fad9131385c5d64fdb.jpg
-    ├── ...
 ```
 
 Mở file `Dockerfile` và sửa dòng lệnh CMD như sau:
