@@ -51,7 +51,20 @@ Epoch 8_night: !gdown https://drive.google.com/uc?id=108S8b_CUn75MbLPz-BtCdJYeaX
 Epoch 12_day: gdown https://drive.google.com/uc?id=1Kwnqnk2IN-fmDDhU7Q5qIp3t6RxonSRu
 ```
  - Checkpoints được lưu tại Co-DETR/nextgen
+``` 
+Co-DETR
+└── nextgen
+    ├── epoch_2.pth
+    ├── ...
+```
  - Public test được lưu tại Co-DETR/test_data
+``` 
+Co-DETR
+└── test_data
+    ├── public test
+    │   ├── cam_08_00500_jpg.rf.5ab59b5bcda1d1fad9131385c5d64fdb.jpg
+    ├── ...
+```
 
 Mở file `Dockerfile` và sửa dòng lệnh CMD như sau:
   ```bash
