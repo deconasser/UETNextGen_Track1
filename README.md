@@ -65,6 +65,8 @@ Co-DETR
 └── nextgen
     ├── epoch_2.pth
     ├── ...
+    ├── epoch_8_night.pth
+    ├── epoch_12_day.pth
 ```
  - Public test đặt tại Co-DETR/test_data
 ``` 
