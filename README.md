@@ -82,8 +82,8 @@ Mở file `Dockerfile` và sửa dòng lệnh CMD như sau:
   ```bash
   CMD bash infer.sh && tail -f /dev/null
   ```
-Kiểm tra đường dẫn tại: infer.py
-Tiến hành inference:
+- Kiểm tra đường dẫn tại: infer.py
+- Tiến hành inference:
 ```
 cd sources/Co-DETR
 docker compose up --build 
