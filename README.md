@@ -22,6 +22,7 @@ co_dino_5scale_swin_large_22e_o365.pth: !gdown https://drive.google.com/uc?id=1U
 ```
 
 ## Prepare dataset
+Sử dụng utils/cvtCocoFormat.py để convert YOLO format sang COCO format.
 ```
 data
 └── soict2024_hackathon
@@ -30,6 +31,8 @@ data
     │   ├── cam_01_00001_aug.jpg
     │   └── ...
     ├── train.json
+    ├── test_img
+    ├── test.json  
 ```
 
  Kiểm tra thư mục Co-DETR/models:
@@ -75,6 +78,7 @@ Mở file `Dockerfile` và sửa dòng lệnh CMD như sau:
   ```bash
   CMD bash infer.sh && tail -f /dev/null
   ```
+Kiểm tra đường dẫn tại: infer.py
 Tiến hành inference:
 ```
 cd sources/Co-DETR
